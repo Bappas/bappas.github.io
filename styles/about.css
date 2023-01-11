@@ -1,0 +1,75 @@
+/*About ME PAGE*/
+
+#about-hero {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1643180131/Photos/benjoelcathyatbeach_rgjx9p.jpg");
+    background-position: 90% 30%;
+    
+}
+#about-information .text-wrapper p, ul{
+    font-size: 18px; 
+    padding-top: 8px;
+}
+
+#about-information .image-wrapper{
+    padding: 5px;
+}
+#about-information .image-wrapper img{
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+
+#about-information #gallery {
+    padding: 15px;
+}
+#about-information #gallery .image-wrapper{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    padding: 0;
+}
+#about-information #gallery .image-wrapper .image-item-text{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+     transition: 1s;
+    opacity: 0;
+}
+
+#about-information #gallery #image-1 {
+    background-image: url("https://res.cloudinary.com/dvaqknckt/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1643243901/Photos/rockclimbing_scpkeh.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#about-information #gallery #image-1:hover #image-text1 {
+      transition: all 1s ease-in-out;
+    display: block;
+    opacity: .8;
+}
+
+#about-information #gallery #image-2{
+    background-image: url(https://res.cloudinary.com/dvaqknckt/image/upload/v1673302993/Photos/IMG-20221217-WA0003_2_ubds9e.jpg);
+    background-size: cover;
+}
+#about-information #gallery #image-2:hover #image-text2 {
+    display: block;
+    transition: all 1s;
+        opacity: .8;
+
+}
+
+#about-information #gallery #image-3{
+    background-image: url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057519/Photos/faminnam_wagipm.jpg");
+    background-size: cover;
+}
+#about-information #gallery #image-3:hover #image-text3 {
+    display: block;
+    transition: all 1s;
+    opacity: .8;
+}
+
+

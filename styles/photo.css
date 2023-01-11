@@ -1,0 +1,97 @@
+#photography-hero  {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057558/Photos/IMG_20191202_165555_f0j6eo.jpg");
+    background-position: 50% 30%;
+}
+
+#photo-content {
+    background-color: rgba(100, 10, 10, .08);
+}
+#photo-content .image-wrapper {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+#photo-content .image-wrapper:hover {
+    background-image: rgba(0, 0, 0, 0.2);
+}
+
+#photo-content .image-wrapper .img {
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+    max-height:  500px;
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+.modalImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.modalImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close-tab {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-tab:hover,
+.close-tab:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
