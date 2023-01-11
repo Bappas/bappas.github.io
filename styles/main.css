@@ -200,6 +200,7 @@ Text Domain:
 }
 
 /* General hero CSS*/
+
 .hero {
      background-position: center;
     background-repeat: no-repeat;
@@ -214,9 +215,16 @@ Text Domain:
     font-size: 16px;
     margin-top: 10%;
 }
+
 /* Hero on homepage*/
+.box1 {
+    background-color: rgba(61, 58, 58, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
 #intro-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1673302586/Photos/chilcott_ltjdkp-3_g9ciu5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057505/Photos/chilcott_ltjdkp.jpg");
   background-attachment: fixed;
 }
 #intro-hero .col-lg-8 .hero-text-wrapper h2{
@@ -268,7 +276,7 @@ Text Domain:
 #events .pill_1 .wrapper {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1673435833/Photos/IMG-20221208-WA0006_pcvzlz.jpg");
   background-position: 50% 20%;
-  background-size: 100%;
+  background-size: 140%;
   background-repeat: no-repeat;
 }
 
