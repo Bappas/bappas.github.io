@@ -221,6 +221,8 @@ Text Domain:
     background-color: rgba(61, 58, 58, 0.5);
     color: rgb(255, 255, 255);
     border-radius: 25px;
+    border: solid 1px #6D7BB7;
+    box-shadow: 1px 1px #6d7bb7;
 }
 
 #intro-hero {
