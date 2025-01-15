@@ -226,7 +226,7 @@ Text Domain:
 }
 
 #intro-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057505/Photos/chilcott_ltjdkp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1736960104/IMAG0079_cobmsk.jpg");
   background-attachment: fixed;
 }
 #intro-hero .col-lg-8 .hero-text-wrapper h2{
@@ -276,7 +276,7 @@ Text Domain:
 
 /*First tab*/
 #events .pill_1 .wrapper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1673435833/Photos/IMG-20221208-WA0006_pcvzlz.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1736961241/IMAG0035_1_y7guu3.jpg");
   background-position: 50% 20%;
   background-size: 140%;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ Text Domain:
     box-shadow: 3px 3px black;
 }
 #events .pill_2 .wrapper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057551/Photos/lacarlights_ddqm1d.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1673435833/Photos/IMG-20221208-WA0006_pcvzlz.jpg");
   background-position: 0% 70%;
   background-size: cover;
   background-repeat: no-repeat;

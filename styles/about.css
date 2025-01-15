@@ -1,7 +1,7 @@
 /*About ME PAGE*/
 
 #about-hero {
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1643180131/Photos/benjoelcathyatbeach_rgjx9p.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1736965563/IMG-20240707-WA0062_2_lyjxih.jpg");
     background-position: 90% 30%;
     
 }
@@ -63,7 +63,7 @@
 }
 
 #about-information #gallery #image-3{
-    background-image: url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057519/Photos/faminnam_wagipm.jpg");
+    background-image: url("https://res.cloudinary.com/dvaqknckt/image/upload/v1736966173/PXL_20230715_101604761_wrezxe.jpg");
     background-size: cover;
 }
 #about-information #gallery #image-3:hover #image-text3 {

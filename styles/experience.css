@@ -1,12 +1,13 @@
 /*experience*/
 #experience-hero {
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvaqknckt/image/upload/v1612057502/Photos/iheartla_jsaura.jpg")
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), 
+    url("https://res.cloudinary.com/dvaqknckt/image/upload/v1736964585/PXL_20230913_204804350_fb5gvj.jpg");
 }
 #experience-hero a {
     border: solid 1px #6D7BB7;
     box-shadow: 1px 1px black;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 4px;
     text-transform: captialize;
     margin-top: 10px;
     color: #f9f9f9;
@@ -20,7 +21,7 @@
 }
 
 #experience-header {
-    text-align: center;
+    text-align: center
 }
 #experience-list li {
     padding: 10px;
